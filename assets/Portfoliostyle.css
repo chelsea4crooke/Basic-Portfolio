@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto 0 auto;
+}
+h1 {
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;   
+    background: teal;
+    color: white;
+    padding: 20px;
+    width: 40%;
+    float: left;
+}
+nav {
+    float: right;
+    padding: 20px;
+}
+a {
+    color: #777777;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+.clearfix {
+    clear: both;
+    overflow: auto;
+}
+body {
+    width: 960px;
+    text-align: center;
+}
+.wrapper {
+    width: 960px;
+    border:#ddd 1px solid;
+    height: 850px;
+    margin: 0 auto;
+}
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: teal;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+hr {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: #777777;
+}
+.container #Pic1 {
+    width: 165px;
+    border: 6px solid #777777;
+    height: 120px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.container .btn1 {
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    float: left;
+    margin-top: 128px;
+    margin-left: 15px;
+  }
+.container #Pic2 {
+    border: 6px solid #777777;
+    float: left;
+    margin-top: 38px;
+    margin-left: 15px;
+}
+.container .btn2 {
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    float: left;
+    margin-top: 128px;
+    margin-left: 15px;
+  }
+.container #Pic3 {
+    width: 165px;
+    border: 6px solid #777777;
+    height: 120px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.container .btn3 {
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    float: left;
+    margin-top: 128px;
+    margin-left: 15px;
+  }
+.container #Pic4 {
+    width: 165px;
+    border: 6px solid #777777;
+    height: 120px;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: -1250px;
+}
+.container .btn4 {
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 310px;
+    margin-left: -1050px;
+  }
+.container #Pic5 {
+    width: 165px;
+    border: 4px solid #777777;
+    height: 120px;
+    float: right;
+}
+footer {
+    clear: both;
+    border-top: 8px solid teal;
+    background: #666666;
+    height: 50px;
+    margin-top: -50px;
+}
